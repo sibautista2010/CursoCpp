@@ -64,7 +64,7 @@ void primos100 (int prmos[]) {
 
 int divisible (int numero) {
     int esprimo {0};
-    if ((numero ==1) || (numero ==2) || (numero ==3) || (numero ==7) || (numero ==11)) {
+    if ((numero ==1) || (numero ==2) || (numero ==3) || (numero ==5) || (numero ==7) || (numero ==11)) {
         esprimo = 1;
         return numero;
     }
