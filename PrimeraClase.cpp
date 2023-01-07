@@ -11,6 +11,7 @@ class Gato {
         void come (void);
         void duerme (void);
         void muestraGato (void);
+        void pideDatos ();
 };
 
 Gato::Gato (string _nombre, int _edad, int _hDormido) {
@@ -32,6 +33,17 @@ void Gato::muestraGato () {
     cout << "Edad: " << edad << endl;
     cout << "Horas de sueño: " << hDormido << endl;
 }
+void Gato::pideDatos () {
+    cout << "Introduce el nombre del Gato: ";
+    cin >> nombre;
+    cout << endl;
+    cout << "Introduce la edad del Gato: ";
+    cin >> edad;
+    cout << endl;
+    cout << "Introduce el número de horas que duerme al día: ";
+    cin >> hDormido;
+    cout << endl;
+}
 
 
 int main () {
@@ -41,7 +53,9 @@ int main () {
     Meof.come();
     Meof.duerme();
     Meof.muestraGato();
-
+    Gato Orejeof ("Orejeof,10,14");
+    Orejeof.pideDatos ();
+    Orejeof.muestraGato ():
     return 0;
 
 }
