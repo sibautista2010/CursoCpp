@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+int primos[100];
+void primos100 (int []);
+int divisible (int);
+
 class Gato {
     private:
         string nombre;
@@ -45,7 +49,35 @@ void Gato::pideDatos () {
     cout << endl;
 }
 
+void primos100 (int prmos[]) {
+    int n{0};
+    int indice {0};
+    for (int i=0;i<100;i++) {
+        n = divisible (i);
+        if (n!= 0) {
+            prmos[indice]= n;
+            indice++;
+        }
+    }
 
+}
+
+int divisible (int numero) {
+    int esprimo {0};
+    if ((numero ==1) || (numero ==2) || (numero ==3) || (numero ==7) || (numero ==11)) {
+        esprimo = 1;
+        return numero;
+    }
+    else if ((numero % 2 !=0) && (numero % 3 !=0) && (numero % 5 !=0) && (numero % 7 !=0) && (numero % 11 !=0)) {
+        esprimo = 1;
+        return numero;
+    }
+    else {
+        esprimo = 0;
+        return esprimo;
+    }
+
+}
 int main () {
     
     Gato Meof ("Meof", 8, 12);
@@ -53,9 +85,10 @@ int main () {
     Meof.come();
     Meof.duerme();
     Meof.muestraGato();
-    Gato Orejeof ("Orejeof,10,14");
+    Gato Orejeof ("Orejeof",10,14);
     Orejeof.pideDatos ();
-    Orejeof.muestraGato ():
-    return 0;
+    Orejeof.muestraGato ();
+    primos100 (primos);
 
+    return 0;
 }
