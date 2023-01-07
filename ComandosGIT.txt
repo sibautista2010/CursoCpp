@@ -4,6 +4,6 @@ git add . o git add archivo: Para añadir toda la carpeta o un arcivo a la zona 
 git commit -m "comentario": Para guardar en repsotirio local.
 git log --oneline: Para ver commits en línea master que hay en repositorio.
 git reset --hard códigoHex: Para volver a una versión anterior.
-git commint -am "comentario": Para añadir a carpetra de ensayo y hacer commit
+git commit -am "comentario": Para añadir a carpeta de ensayo y hacer commit
 git remote add origin url: Para subir a GitHub. Pedirá usuario y contraseña
 
