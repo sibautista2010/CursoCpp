@@ -31,7 +31,6 @@ void Gato::muestraGato () {
     cout << "Nombre: " << nombre << endl;
     cout << "Edad: " << edad << endl;
     cout << "Horas de sueño: " << hDormido << endl;
-
 }
 
 
@@ -44,5 +43,5 @@ int main () {
     Meof.muestraGato();
 
     return 0;
-    
+
 }
