@@ -59,7 +59,6 @@ void primos100 (int prmos[]) {
             indice++;
         }
     }
-
 }
 
 int divisible (int numero) {
