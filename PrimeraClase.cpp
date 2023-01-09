@@ -80,7 +80,7 @@ int divisible (int numero) {
 int main () {
     
     Gato Meof ("Meof", 8, 12);
-    cout << "Primer programa con uso de clases en C++" << endl;
+    cout << "Primer programa con uso de clases en C++ " << endl;
     Meof.come();
     Meof.duerme();
     Meof.muestraGato();
