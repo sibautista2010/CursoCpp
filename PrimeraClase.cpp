@@ -1,9 +1,11 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int primos[100];
 void primos100 (int []);
 int divisible (int);
+void introduceGato (string , int*, int*);
 
 class Gato {
     private:
@@ -75,11 +77,21 @@ int divisible (int numero) {
         esprimo = 0;
         return esprimo;
     }
-
 }
+    
+void introduceGato (string _s, int* _anos, int* _horas) {
+    
+    _s = "minix";
+    *_anos = 8;
+    *_horas = 12;
+}
+
 int main () {
     
-    Gato Meof ("Meof", 8, 12);
+    string nombreGato {"minix"};
+    int edadGato, horasSueno;
+    introduceGato (nombreGato, &edadGato, &horasSueno);
+    Gato Meof (nombreGato, edadGato, horasSueno);
     cout << "Primer programa con uso de clases en C++ " << endl;
     Meof.come();
     Meof.duerme();
