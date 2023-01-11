@@ -5,6 +5,7 @@ git commit -m "comentario": Para guardar en repsotirio local.
 git log --oneline: Para ver commits en línea master que hay en repositorio.
 git reset --hard códigoHex: Para volver a una versión anterior.
 git commit -am "comentario": Para añadir a carpeta de ensayo y hacer commit
-git remote add origin url: Para subir a GitHub. Pedirá usuario y contraseña
+git remote add origin url: Para crear y lugo subir a GitHub. Pedirá usuario y contraseña
 git clone: Para descargar un repositorio en una carpeta local
+git push url: Para actualizar repositorio remoto con el contenido del local.
 
