@@ -99,6 +99,16 @@ int main () {
     Gato Orejeof ("Orejeof",10,14);
     Orejeof.pideDatos ();
     Orejeof.muestraGato ();
+    switch (edadGato) {
+        case 4: cout << "El gato " << nombreGato << " es muy joven" << endl;
+                break;
+        case 8: cout << "El gato " << nombreGato << " es adulto" << endl;
+                break;
+        case 12:cout << "El gato " << nombreGato << " es muy mayor" << endl;
+                break;
+        default:cout << "El gato " << nombreGato << " es muy indeterminado" << endl;
+        break;
+    }
     primos100 (primos);
 
     return 0;
