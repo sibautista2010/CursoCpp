@@ -1,9 +1,8 @@
 #include <iostream>
+#include <string.h>
 #include "ClaseGato.h"
 
-
 using namespace std;
-
 
 Gato::Gato (string _nombre, int _edad, int _hDormido) {
     nombre = _nombre;

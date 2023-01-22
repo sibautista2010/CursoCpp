@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+#ifndef MISUMA_H
+#define MISUMA_H
 
 class miSuma {
     private:
@@ -8,6 +10,7 @@ class miSuma {
     int b;
 
     public:
-    void suma (int a, int b);
     miSuma (int, int);
+    void suma (int a, int b);
 };
+#endif
