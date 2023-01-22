@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "miClase.hpp"
 using namespace std;
 
 int primos[100];
@@ -110,6 +111,9 @@ int main () {
         break;
     }
     primos100 (primos);
+    miSuma estaSuma;
+
+    estaSuma.suma(3,5);
 
     return 0;
 }
