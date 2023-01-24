@@ -9,7 +9,7 @@ miSuma::miSuma (int _a, int _b){
 }
 
 
-miSuma::suma (int _n1, int _n2) {
+void miSuma::suma (int _n1, int _n2) {
     cout << "================================="<< endl;
     cout << " Operación de suma de dos numeros"<< endl;
     cout << "=== clases en varios archivos ==="<< endl;

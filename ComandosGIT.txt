@@ -8,4 +8,5 @@ git commit -am "comentario": Para añadir a carpeta de ensayo y hacer commit
 git remote add origin url: Para crear y lugo subir a GitHub. Pedirá usuario y contraseña
 git clone: Para descargar un repositorio en una carpeta local
 git push url: Para actualizar repositorio remoto con el contenido del local.
+git puch -u master: Para subir el brach master a github
 
