@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int primos[100];
+//int primos[100];
 
 void primos100 (int prmos[]) {
     int n{0};
